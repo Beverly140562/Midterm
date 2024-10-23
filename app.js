@@ -1,6 +1,6 @@
 
 function addToCart(name) {
-    alert(name + " " + has been added to your cart!`);
+    alert(name + " " + "has been added to your cart!");
 
   addToCartButtons.forEach(() => {
         button.addEventListener('click', () => {
