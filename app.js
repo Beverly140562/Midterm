@@ -2,7 +2,7 @@
 function addToCart(name) {
     alert(name + " " + "has been added to your cart!");
 
-  addToCartButtons.forEach(() => {
+  addToCart.forEach(() => {
         button.addEventListener('click', () => {
             const products = [
                 { name: 'Laptop', price: 1500, stock: 5 },
