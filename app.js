@@ -1,19 +1,8 @@
 
-let cart = [];
+function addToCart(name) {
+    alert(name + " " + has been added to your cart!`);
 
-
-function addToCart(item) {
-    cart.push(item);
-    alert(`${item.name} has been added to your cart!`);
-    console.log(cart);
-}
-
-
-function init() {
- 
-    const addToCartButtons = document.querySelectorAll('.btn');
-
-    addToCartButtons.forEach((button, index) => {
+  addToCartButtons.forEach(() => {
         button.addEventListener('click', () => {
             const products = [
                 { name: 'Laptop', price: 1500, stock: 5 },
@@ -24,5 +13,3 @@ function init() {
         });
     });
 }
-
-document.addEventListener('DOMContentLoaded', init);
