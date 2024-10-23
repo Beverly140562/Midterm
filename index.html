@@ -9,19 +9,51 @@
 </head>
 <body>
 
-  <div class="container-fluid p-5 bg-dark text-white text-center">
-    <h1>Cnect Online Products</h1>
-  </div>
-    
 
-<div class="container-fluid mt-3">
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="product1.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+      </a>
+      <div class="container-fluid p-3 bg-dark text-white text-center">
+        <h1>Cnect Online Products</h1>
+      </div>
+    </div>
+  </nav>
+
+
+<div class="container mt-3">
   <div class="row">
-    <img src="cinqueterre.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236">
-    <div class="col p-3 bg-info text-secondary">Product name 1</div>
-    <div class="col p-3 bg-warning text-secondary">Product name 2</div>
-    <div class="col p-3 bg-info text-secondary">Product name 3</div>
+    <div class="col p-3 bg-info text-dark">
+      <img src="prod.jpg" class="img-thumbnail" alt="Cinque Terre" width="300" height="300">
+        <h2>Samsung</h2>
+        <h5>Price: $30</h5>
+        <h5>In Stock: 10</h5>
+        <button type="button" class="btn btn-secondary badge rounded-pill"  onclick="addToCart('Hot Infinix')">Add to Cart</button>
+    </div>
+    <div class="col p-3 bg-warning text-dark">
+      <img src="product1.png" class="img-thumbnail" alt="Cinque Terre" width="300" height="300">
+        <h2>Iphone 13</h2>
+        <h5>Price: $50</h5>
+        <h5>In Stock: 12</h5>
+        <button type="button" class="btn btn-secondary badge rounded-pill">Add to Cart</button>
+    </div>
+    <div class="col p-3 bg-info text-dark">
+      <img src="samsung.jpg" class="img-thumbnail" alt="Cinque Terre" width="300" height="300">
+        <h2>Hot Infinix</h2>
+        <h5>Price: $10</h5>
+        <h5>In Stock: 20</h5>
+        <button type="button" class="btn btn-secondary badge rounded-pill">Add to Cart</button>
+    </div>
   </div>
 </div>
+
+<div class="mt-3 p-3 bg-dark text-white text-center ">
+  <h4>@Beverly J. Salde</h4>
+</div>
+
+<script src="app.js"></script>
+
 
 </body>
 </html>
