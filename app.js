@@ -16,9 +16,9 @@ function init() {
     addToCartButtons.forEach((button, index) => {
         button.addEventListener('click', () => {
             const products = [
-                { name: 'Samsung', price: 30, stock: 10 },
-                { name: 'Iphone', price: 50, stock:12 },
-                { name: 'Infinix', price: 10, stock:20 },
+                { name: 'Laptop', price: 1500, stock: 5 },
+                { name: 'Headphones', price: 100, stock:10 },
+                { name: 'Keyboard', price: 50, stock:20 },
             ];
             addToCart(products[index]);
         });
